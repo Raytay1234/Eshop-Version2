@@ -1,17 +1,19 @@
+/* src/styles/ProductCard.css */
+
 .product-card {
   border: 1px solid #ccc;
-  padding: 10px;
-  width: 200px;
-  margin: 10px;
-  background: white;
-  text-align: center;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #fff;
+  transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
 }
 
 .product-card img {
   width: 100%;
-}
-
-.product-list {
-  display: flex;
-  gap: 10px;
+  border-radius: 4px;
 }
