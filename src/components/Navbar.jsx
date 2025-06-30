@@ -1,8 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useCart } from '../context/useCart';
-import '../styles/Navbar.css';
-
+import '../Styles/Navbar.css'; // Adjust the path as necessary
 
 export default function Navbar() {
   const { cartItems } = useCart();
