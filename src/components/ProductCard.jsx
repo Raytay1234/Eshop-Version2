@@ -1,6 +1,6 @@
 import React from 'react';
 import { useCart } from '../context/useCart'; // ✅ Correct path
-import '../styles/ProductCard.css';
+import '../Styles/ProductCard.css';
 
 export default function ProductCard({ product }) {
   const { addToCart } = useCart();
